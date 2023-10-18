@@ -1,24 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import WaveSurfer from "./components/WaveSurfer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <><h1>마이크를 연결해주세요.</h1>
+      <WaveSurfer></WaveSurfer></>
   );
 }
 
